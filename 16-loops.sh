@@ -23,7 +23,7 @@ fi
  
 # validate functions takes input as exit status, what command they tried to install
 VALIDATE(){
-    if [ $? -eq 0 ]
+    if [ $1 -eq 0 ]
     then
         echo -e "Installing $2 is ... $G Success $N" | tee -a $LOG_FILE
     else

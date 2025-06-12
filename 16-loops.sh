@@ -32,7 +32,9 @@ VALIDATE(){
     fi
 }
 
-    dnf list installed $package &>>$LOG_FILE
+for package in ${PACKAGES[@]}
+do
+     dnf list installed $package &>>$LOG_FILE
     if [ $? -ne 0 ]
     then
         echo "$package is not installed... going to install it" | tee -a $LOG_FILE

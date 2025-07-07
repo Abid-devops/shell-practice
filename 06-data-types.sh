@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER1=100
+NUMBER1=abid
 NUMBER2=200
 
 TIMESTAMP=$(date)

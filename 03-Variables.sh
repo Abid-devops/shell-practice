@@ -2,10 +2,11 @@
 
 PERSON1=Modi #there should be no space before and after =
 PERSON2=Musk
+PERSON3=Abid
 
 echo "$PERSON1:: Hey $PERSON2, How are you?"
 echo "$PERSON2:: Hello $PERSON1, I am fine. How are you doing"
 echo "$PERSON1: I am fine too. What's up?"
 echo "$PERSON2:: Nothing, just going to Mars now, will you come?"
 echo "$PERSON1:: Sorry, you carry on! I will come once you come back"
-echo "$PERSON3:: "Iam abid i want to shift in IT world at any cost" 
+echo "$PERSON3:: I want to shift in IT world at any cost" 

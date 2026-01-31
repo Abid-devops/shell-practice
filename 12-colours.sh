@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo -e "\e[30m Hello Colors"
+echo -e "\e[31m Hello Colors"
 
-echo "Hello No Colors"
+echo "Hello All Colors"

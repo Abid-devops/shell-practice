@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NUMBER1=abid
-NUMBER2=200
+NUMBER2=300
 
 TIMESTAMP=$(date)
 echo "script executed at: $TIMESTAMP"
